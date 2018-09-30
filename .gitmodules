@@ -1,0 +1,42 @@
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/puppet"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/puppet
+	url = https://github.com/theforeman/puppet-puppet.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/puppetdb"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/puppetdb
+	url = https://github.com/puppetlabs/puppetdb.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/stdlib"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/postgresql"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/postgresql
+	url = https://github.com/puppetlabs/puppetlabs-postgresql.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/ntp"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/ntp
+	url = https://github.com/puppetlabs/puppetlabs-ntp.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/foreman"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/foreman
+	url = https://github.com/theforeman/puppet-foreman.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/foreman-proxy"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/foreman-proxy
+	url = https://github.com/theforeman/puppet-foreman_proxy.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/concat"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/r10k"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/r10k
+	url = https://github.com/puppetlabs/r10k.git
+[submodule "etc/puppetlabs/code/environments/mgmt/site/profiles"]
+	path = etc/puppetlabs/code/environments/mgmt/site/profiles
+	url = https://github.com/attachmentgenie/attachmentgenie-profiles.git
+[submodule "etc/puppetlabs/code/environments/mgmt/site/roles"]
+	path = etc/puppetlabs/code/environments/mgmt/site/roles
+	url = https://github.com/attachmentgenie/attachmentgenie-roles.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/apache"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/apache
+	url = https://github.com/puppetlabs/puppetlabs-apache.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/extlib"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/extlib
+	url = https://github.com/voxpupuli/puppet-extlib.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/apt"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/apt
+	url = https://github.com/puppetlabs/puppetlabs-apt.git
