@@ -43,3 +43,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/translate"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/translate
 	url = https://github.com/puppetlabs/puppetlabs-translate.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/firewall"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/firewall
+	url = https://github.com/puppetlabs/puppetlabs-firewall.git
