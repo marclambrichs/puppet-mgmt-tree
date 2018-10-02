@@ -3199,3 +3199,4 @@ echo "Adding repo"
 /etc/puppetlabs/code/environments/mgmt/modules/apache/.nodeset.yml
 /etc/puppetlabs/code/environments/mgmt/modules/apache/readmes/README_ja_JP.md
 /etc/puppetlabs/puppet/csr_attributes.yaml
+/etc/puppetlabs/puppet/node.rb
