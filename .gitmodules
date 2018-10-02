@@ -40,3 +40,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/apt"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/apt
 	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/translate"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/translate
+	url = https://github.com/puppetlabs/puppetlabs-translate.git
