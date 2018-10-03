@@ -49,3 +49,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/puppetdb"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/puppetdb
 	url = https://github.com/puppetlabs/puppetlabs-puppetdb.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/inifile"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/inifile
+	url = https://github.com/puppetlabs/puppetlabs-inifile.git
