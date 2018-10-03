@@ -13,9 +13,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/foreman"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/foreman
 	url = https://github.com/theforeman/puppet-foreman.git
-[submodule "etc/puppetlabs/code/environments/mgmt/modules/foreman-proxy"]
-	path = etc/puppetlabs/code/environments/mgmt/modules/foreman-proxy
-	url = https://github.com/theforeman/puppet-foreman_proxy.git
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/concat"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/concat
 	url = https://github.com/puppetlabs/puppetlabs-concat.git
@@ -55,3 +52,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/epel"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/epel
 	url = https://github.com/stahnma/puppet-module-epel.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/foreman_proxy"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/foreman_proxy
+	url = https://github.com/theforeman/puppet-foreman_proxy.git
