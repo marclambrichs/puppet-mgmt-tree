@@ -1,9 +1,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/puppet"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/puppet
 	url = https://github.com/theforeman/puppet-puppet.git
-[submodule "etc/puppetlabs/code/environments/mgmt/modules/puppetdb"]
-	path = etc/puppetlabs/code/environments/mgmt/modules/puppetdb
-	url = https://github.com/puppetlabs/puppetdb.git
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/stdlib"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/stdlib
 	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
@@ -49,3 +46,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/timezone"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/timezone
 	url = https://github.com/attachmentgenie/attachmentgenie-timezone.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/puppetdb"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/puppetdb
+	url = https://github.com/puppetlabs/puppetlabs-puppetdb.git
