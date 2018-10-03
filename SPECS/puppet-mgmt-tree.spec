@@ -32,6 +32,7 @@ echo "Adding repo"
 %config(noreplace) /etc/puppetlabs/code/environments/mgmt/modules/puppetdb/util/bin/pdb
 %config(noreplace) /etc/puppetlabs/code/environments/mgmt/modules/puppetdb/util/pdb/samples
 %config(noreplace) /etc/puppetlabs/code/environments/mgmt/modules/r10k/test
+/etc/puppetlabs/puppetserver/services.d/ca.cfg
 /etc/puppetlabs/code/environments/mgmt/hiera.yaml
 /etc/puppetlabs/code/environments/mgmt/environment.conf
 /etc/puppetlabs/code/environments/mgmt/site/roles/Guardfile
@@ -608,6 +609,27 @@ echo "Adding repo"
 /etc/puppetlabs/code/environments/mgmt/modules/extlib/.git
 /etc/puppetlabs/code/environments/mgmt/modules/extlib/.travis.yml
 /etc/puppetlabs/code/environments/mgmt/modules/extlib/.rspec_parallel
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/Guardfile
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/.rspec
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/LICENSE
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/.kitchen.yml
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/CHANGELOG.md
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/Puppetfile
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/tests/init.pp
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/metadata.json
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/spec/spec_helper.rb
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/README.md
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/Rakefile
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/.gitignore
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/CONTRIBUTING.md
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/Gemfile
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/.rubocop.yml
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/manifests/params.pp
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/manifests/config.pp
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/manifests/install.pp
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/manifests/init.pp
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/.git
+/etc/puppetlabs/code/environments/mgmt/modules/timezone/.travis.yml
 /etc/puppetlabs/code/environments/mgmt/modules/puppetdb/project.clj
 /etc/puppetlabs/code/environments/mgmt/modules/puppetdb/documentation/anonymization.markdown
 /etc/puppetlabs/code/environments/mgmt/modules/puppetdb/documentation/ha.markdown
@@ -3198,5 +3220,5 @@ echo "Adding repo"
 /etc/puppetlabs/code/environments/mgmt/modules/apache/.travis.yml
 /etc/puppetlabs/code/environments/mgmt/modules/apache/.nodeset.yml
 /etc/puppetlabs/code/environments/mgmt/modules/apache/readmes/README_ja_JP.md
-/etc/puppetlabs/puppet/csr_attributes.yaml
 /etc/puppetlabs/puppet/node.rb
+/etc/puppetlabs/puppet/csr_attributes.yaml
