@@ -52,3 +52,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/inifile"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/inifile
 	url = https://github.com/puppetlabs/puppetlabs-inifile.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/epel"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/epel
+	url = https://github.com/stahnma/puppet-module-epel.git
