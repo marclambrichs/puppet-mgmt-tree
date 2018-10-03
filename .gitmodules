@@ -55,3 +55,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/foreman_proxy"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/foreman_proxy
 	url = https://github.com/theforeman/puppet-foreman_proxy.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/datacat"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/datacat
+	url = https://github.com/richardc/puppet-datacat.git
