@@ -1,11 +1,19 @@
 # Build rpm
+
+Checkout repository and initialize submodules:
+```
+$ git clone https://github.com/marclambrichs/puppet-mgmt-tree.git
+$ cd puppet-mgmt-tree
+$ git submodule init
+$ git submodule update
+```
  
 Install necessary libraries
 ```
 $ yum install rpmdevtools
 ```
 
-Next, we can setup directory tree for our rpm build:
+Next, we can setup directory tree for our rpm build in your homedir:
 ```
 $ rpmdev-setuptree
 ```
