@@ -29,7 +29,6 @@ echo "Adding repo"
 %defattr(-,root,root,-)
 %config(noreplace) /etc/puppetlabs/code/environments/mgmt/modules/r10k/test
 /etc/puppetlabs/puppetserver/services.d/ca.cfg
-/etc/puppetlabs/code/environments/mgmt/hiera.yaml
 /etc/puppetlabs/code/environments/mgmt/environment.conf
 /etc/puppetlabs/code/environments/mgmt/site/roles/Guardfile
 /etc/puppetlabs/code/environments/mgmt/site/roles/.rspec
