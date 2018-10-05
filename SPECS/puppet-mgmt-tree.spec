@@ -993,6 +993,13 @@ echo "Adding repo"
 /etc/puppetlabs/code/environments/mgmt/modules/translate/.travis.yml
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/README.mkd
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/CHANGELOG.mkd
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/docker/.rspec
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/docker/r10k/Dockerfile
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/docker/r10k/spec/dockerfile_spec.rb
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/docker/ci/build.ps1
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/docker/ci/build
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/docker/Gemfile
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/docker/distelli-manifest.yml
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/locales/r10k.pot
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/locales/config.yaml
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/r10k.yaml.example
@@ -1059,9 +1066,7 @@ echo "Adding repo"
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/basic_functionality/rugged_git_provider_with_ssh.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/basic_functionality/proxy_with_puppetfile.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/i18n/deploy_module_with_unicode_in_file_name.rb
-/etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/command_line/negative/neg_invalid_cli_env_flag.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/command_line/negative/neg_invalid_cmd_line_arg.rb
-/etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/command_line/negative/neg_invalid_cli_dep_flag.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/command_line/negative/neg_deploy_env_with_module_update.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/command_line/deploy_env_without_mod_update.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/integration/tests/git_source/git_source_git.rb
@@ -1114,6 +1119,7 @@ echo "Adding repo"
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/unit/settings/definition_spec.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/unit/settings/container_spec.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/unit/deployment_spec.rb
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/unit/cli_spec.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/unit/util/setopts_spec.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/unit/util/purgeable_spec.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/unit/util/attempt_spec.rb
@@ -1207,8 +1213,10 @@ echo "Adding repo"
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/matchers/match_realpath.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/spec/shared-contexts/git-fixtures.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/MAINTAINERS
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/azure-pipelines.yml
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/Rakefile
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/.gitignore
+/etc/puppetlabs/code/environments/mgmt/modules/r10k/.gitattributes
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/lib/r10k/svn/remote.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/lib/r10k/svn/working_dir.rb
 /etc/puppetlabs/code/environments/mgmt/modules/r10k/lib/r10k/settings/helpers.rb
@@ -1895,6 +1903,7 @@ echo "Adding repo"
 /etc/puppetlabs/code/environments/mgmt/modules/apt/.sync.yml
 /etc/puppetlabs/code/environments/mgmt/modules/apt/.git
 /etc/puppetlabs/code/environments/mgmt/modules/apt/.travis.yml
+/etc/puppetlabs/code/environments/mgmt/modules/apt/readmes/README_ja_JP.md
 /etc/puppetlabs/code/environments/mgmt/modules/stdlib/.yardopts
 /etc/puppetlabs/code/environments/mgmt/modules/stdlib/.rubocop_todo.yml
 /etc/puppetlabs/code/environments/mgmt/modules/stdlib/README_SPECS.markdown
