@@ -61,3 +61,6 @@
 [submodule "etc/puppetlabs/code/environments/mgmt/modules/selinux"]
 	path = etc/puppetlabs/code/environments/mgmt/modules/selinux
 	url = https://github.com/voxpupuli/puppet-selinux.git
+[submodule "etc/puppetlabs/code/environments/mgmt/modules/nginx"]
+	path = etc/puppetlabs/code/environments/mgmt/modules/nginx
+	url = https://github.com/voxpupuli/puppet-nginx.git
